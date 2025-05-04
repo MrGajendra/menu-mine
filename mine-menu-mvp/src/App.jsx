@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import CreateMenu from "./Pages/CreateMenu/CreateMenu";
-import MenuPage from "./Pages/MenuPage/MenuPage";
-import QRPage from "./Pages/QRPage/QRPage";
-import Navbar from "./Components/Navbar";
-import MenuContext from "./Context/MenuContext";
+import CreateMenu from "./Pages/CreateMenu/CreateMenu.jsx";
+import MenuPage from "./Pages/MenuPage/MenuPage.jsx";
+import QRPage from "./Pages/QRPage/QRPage.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import MenuContext from "./Context/MenuContext.jsx";
 
 const App = () => {
   const [menu, setMenu] = useState([]);
