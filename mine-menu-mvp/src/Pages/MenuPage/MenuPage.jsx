@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
-import MenuContext from "../../context/MenuContext";
+import MenuContext from "../context/MenuContext";
 
 const MenuPage = () => {
   const { menu } = useContext(MenuContext);
